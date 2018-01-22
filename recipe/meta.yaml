@@ -10,8 +10,8 @@ package:
 source:
   fn: mlmRev_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/mlmRev_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/mlmRev/mlmRev_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/mlmRev_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/mlmRev/mlmRev_{{ version }}.tar.gz
   sha256: 0796b6be29f162f6fa1bc41ca0a153649315a5a69cc846794787dcb52c547557
 
 

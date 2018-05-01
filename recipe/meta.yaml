@@ -14,16 +14,10 @@ source:
     - {{ cran_mirror }}/src/contrib/Archive/mlmRev/mlmRev_{{ version }}.tar.gz
   sha256: 0796b6be29f162f6fa1bc41ca0a153649315a5a69cc846794787dcb52c547557
 
-
-  # patches:
-   # List any patch files here
-   # - fix.patch
-
 build:
   merge_build_host: True  # [win]
   # If this is a new build for the same version, increment the build number.
   number: 4
-
 
   # This is required to make R link correctly on Linux.
   rpaths:
